@@ -7,7 +7,7 @@ package com.jndemo.demo;
  */
 public class SortIntegers {
     public static void main(String[] args) {
-        int[] A = {3, 2, 1, 4, 5};
+        int[] A = {5, 4, 3, 2, 1};
         sortIntegers(A);
     }
     public static void sortIntegers(int[] A) {
