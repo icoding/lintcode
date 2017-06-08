@@ -53,7 +53,7 @@ public class BinaryTreePathSum {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(4);
+        TreeNode root = new TreeNode(1);
         TreeNode r_r = new TreeNode(2);
         TreeNode r_l = new TreeNode(4);
         TreeNode r_r_r = new TreeNode(2);
@@ -63,7 +63,7 @@ public class BinaryTreePathSum {
         r_r.left = r_r_l;
         r_r.right = r_r_r;
         BinaryTreePathSum b = new BinaryTreePathSum();
-        System.out.println(b.binaryTreePathSum(root,9));
+        System.out.println(b.binaryTreePathSum(root,5));
 
     }
     public static  class TreeNode {

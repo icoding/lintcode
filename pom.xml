@@ -119,17 +119,33 @@
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.4</version>
 		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<!--<dependency>-->
+            <!--<groupId>com.easou.infra.app</groupId>-->
+    		<!--<artifactId>easou-infra-app-metadata</artifactId>-->
+   	 		<!--<version>0.0.1-SNAPSHOT</version>-->
+        <!--</dependency>-->
+		<!--&lt;!&ndash; add by jiangnan  end &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>com.easou.infra</groupId>-->
+		    <!--<artifactId>easou-infra-community-like</artifactId>-->
+		    <!--<version>0.0.2-SNAPSHOT</version>-->
+		<!--</dependency>-->
 
 		<dependency>
-            <groupId>com.easou.infra.app</groupId>
-    		<artifactId>easou-infra-app-metadata</artifactId>
-   	 		<version>0.0.1-SNAPSHOT</version>
-        </dependency>
-		<!-- add by jiangnan  end -->
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
 		<dependency>
-			<groupId>com.easou.infra</groupId>
-		    <artifactId>easou-infra-community-like</artifactId>
-		    <version>0.0.2-SNAPSHOT</version>
+			<groupId>com.belerweb</groupId>
+			<artifactId>pinyin4j</artifactId>
+			<version>2.5.0</version>
 		</dependency>
 	</dependencies>
 	<build>
