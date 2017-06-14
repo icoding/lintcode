@@ -61,19 +61,14 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.2.2</version>
-        </dependency>	
-        
-       
-    	 <dependency>
-            <groupId>com.easou.infra</groupId>
-            <artifactId>easou-infra-community-user</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>	        
-    	 <dependency>
-            <groupId>com.easou.infra</groupId>
-            <artifactId>easou-infra-community-comment</artifactId>
-            <version>0.0.9-SNAPSHOT</version>
-        </dependency>		
+        </dependency>
+
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>14.0.1</version>
+		</dependency>
         <!-- Servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
